@@ -52,7 +52,7 @@ def pfix_bd(N, s, a, b, iter):
     return pfix
 
 # N: Population Size
-# s: Selection coeficient (-1 < s < Inf | s > 0 is beneficial mutation and s < 0 is delitarious mutation)
+# s: Selection coeficient (-1 < s < Inf | s > 0 is beneficial mutation and s < 0 is deletarious mutation)
 # iter: number of Monte Carlo iterations
 # a_list, b_list: list of parameters for Gamma Dist.
 def analysis(N, s, iter, a_list, b_list):
